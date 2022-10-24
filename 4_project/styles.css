@@ -13,13 +13,13 @@ h1, p {
     padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+    
+} 
 
 .main-container {
     display: flex;
     justify-content: center;
-   
-    
+
 }
 
 .container {
