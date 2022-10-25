@@ -8,7 +8,7 @@ body {
     height: 1200px;
     font-size: 18px;
     font-family: sans-serif;
-    color: #00000;
+    color: #0000;
 }
 
 a:link, a:visited {
@@ -43,4 +43,47 @@ a:hover {
 
 .menu > li:last-of-type {
     margin-right: 0;
+}
+
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #29fd2f;
+    border-radius: 5px;
+    padding-top: 60px;
+
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    z-index: 1;
+}
+
+.features-menu {
+    display: none;
+}
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #fff;
+    padding: 0 40px 10px 20px;
+    margin: 10px;
+    
+}
+
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+
+    position: relative;
+}
+
+.dropdown > span {
+    z-index: 2; /*будет работать только если задан парметр position*/
+    position: relative;
+    cursor: pointer;
 }
