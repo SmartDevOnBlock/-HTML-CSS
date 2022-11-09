@@ -48,6 +48,22 @@
     background-color: #ffffff;
 }
 
+.illustration img {
+    width: 100%; /*иллюстрация должна всегда заполнять контейнер во всю его ширину*/
+    display: block;
+}
+
+.header {
+    height: auto;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+}
+
+
+
 /*макет для телефонов
 
 @media - создаёт медиа запрос
@@ -66,6 +82,8 @@
         background-color: #29fd2f;
     }
 }
+
+
 
 /* dlya planshetov*/
 
